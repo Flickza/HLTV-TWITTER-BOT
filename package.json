@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Flickza/HLTV-TWITTER-BOT/issues"
   },
-  "homepage": "https://github.com/Flickza/HLTV-TWITTER-BOT#readme"
+  "homepage": "https://github.com/Flickza/HLTV-TWITTER-BOT#readme",
+  "dependencies": {
+    "hltv-api": "^3.0.0"
+  }
 }
