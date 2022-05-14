@@ -29,7 +29,7 @@ export const createTweet = async (req, res) => {
 
 export const testTweet = async (req, res) => {
     try {
-        T.post('statuses/update', { status: 'Hello World2!' }, function(err, data, response) {
+        T.post('statuses/update', { status: 'Hello World!' }, function(err, data, response) {
             console.log(data);
             res.status(200).json(data);
         })
